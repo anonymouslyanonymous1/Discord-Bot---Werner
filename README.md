@@ -29,7 +29,7 @@
 #### Pillow is the key reason why this bot was possible, Pillow allowed me to take that Discord user's input and combine all of that to produce the final image.
 
 # Folder Structure Breakdown
-- There's a __project__ folder
+- There's a __Files__ folder
     - In which is another folder named __Main__:
         1. There resides my bot.py file, *the main file*
         2. The base image, *using which pillow would work*
