@@ -21,7 +21,7 @@ async def on_ready():
     print('We have logged in as {0.user}'.format(client))
 
 @client.command()
-async def transfer(ctx, player_name):
+async def transfer(ctx, *, player_name):
     try:
         # await ctx.send(f"Ok so Player Name: {player_name}")
         first = discord.Embed(title = "Player Name", description = "Ok so, Player Name: " + player_name, colour = discord.Colour.dark_red())
