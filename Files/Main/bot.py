@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
-import datetime
 import asyncio
-import random
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 import urllib.request
 from io import BytesIO
